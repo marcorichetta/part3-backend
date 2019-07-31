@@ -1,9 +1,17 @@
-# Part 3 | Fullstack course
+## Part 3 | Fullstack course
+***
+### Persons App
 
-### Persons Backend
+- It uses the React frontend from https://github.com/marcorichetta/fullstackopen/tree/master/part2
 
-The backend is hosted in Heroku https://sleepy-mesa-60182.herokuapp.com/
+- The backend and the static frontend build are hosted in Heroku https://persons-fullstack.herokuapp.com/
 
-`/api/persons` returns a JSON list of persons
+- The database is hosted in a MongoDB Cluster at https://cloud.mongodb.com
 
-`/api/persons/:id` returns the person with the correspondent ID if exists.
+#### Endpoints
+
+- `/api/info` returns the number of persons on the DB
+
+- `/api/persons` returns a JSON list of persons
+
+- `/api/persons/:id` returns the person with the correspondent ID if exists.
